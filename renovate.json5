@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [ "config:base" ],
+  // Test lockfile maintenance for Python
+  // https://docs.renovatebot.com/configuration-options/#lockfilemaintenance
+  lockFileMaintenance: {
+    enabled: true,
+    automerge: true,
+  },
+}

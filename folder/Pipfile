@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-consul="*"
+# PyInquirer 1.0.3 requires Python <=3.9
+PyInquirer="*" # CLI questions
+regex="*" # PyInquirer implicit dependency
+
+[dev-packages]
+typeguard="*" # Function type-checker. Maybe good idea use http://mypy-lang.org/ than CPython
+
+[requires]
+python_version = "3.9"
