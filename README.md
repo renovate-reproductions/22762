@@ -1,2 +1,3 @@
 # renovate-pipfile-lockfile
-https://github.com/renovatebot/renovate/discussions/14393
+
+Minimal reproduction for https://github.com/renovatebot/renovate/discussions/14393#discussioncomment-4785535
